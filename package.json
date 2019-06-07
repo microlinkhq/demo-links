@@ -1,0 +1,93 @@
+{
+  "name": "@microlink/demo-links",
+  "homepage": "https://nicedoc.io/microlinkhq/demo-links",
+  "description": "A set of links used for demo purposes",
+  "version": "0.0.0",
+  "main": "readme.json",
+  "author": {
+    "name": "microlink.io",
+    "email": "hello@microlink.io",
+    "url": "https://microlink.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microlinkhq/demo-links.git"
+  },
+  "bugs": {
+    "url": "https://github.com/microlinkhq/demo-links/issues"
+  },
+  "keywords": [
+    "microlink",
+    "demo",
+    "links"
+  ],
+  "files": [
+    "readme.json"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "conventional-github-releaser": "latest",
+    "finepack": "latest",
+    "git-authors-cli": "latest",
+    "git-dirty": "latest",
+    "husky": "latest",
+    "lint-staged": "latest",
+    "npm-check-updates": "latest",
+    "prettier-standard": "latest",
+    "standard": "latest",
+    "standard-markdown": "latest",
+    "standard-version": "latest",
+    "@kikobeats/jsonsort": "latest",
+    "ci-publish": "latest"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "lint": "standard-markdown README.md && standard",
+    "postrelease": "npm run release:tags && npm run release:github && ci-publish --access=public",
+    "precommit": "lint-staged",
+    "prerelease": "npm run update:check",
+    "pretest": "npm run lint",
+    "pretty": "prettier-standard index.js {core,test,bin,scripts}/**/*.js --single-quote --print-width 100",
+    "release": "git-authors-cli && finepack && git add package.json && standard-version -a",
+    "release:github": "conventional-github-releaser -p angular",
+    "release:tags": "git push --follow-tags origin HEAD:master",
+    "test": "exit 0",
+    "update": "ncu -a",
+    "update:check": "ncu -- --error-level 2"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "linters": {
+      "*.js": [
+        "prettier-standard",
+        "git add"
+      ],
+      "*.md": [
+        "standard-markdown",
+        "git add"
+      ],
+      "readme.json": [
+        "jsonsort --criteria logo --save --quiet",
+        "git add"
+      ],
+      "package.json": [
+        "finepack",
+        "git add"
+      ]
+    }
+  }
+}
