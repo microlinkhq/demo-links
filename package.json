@@ -1,14 +1,20 @@
 {
   "name": "@microlink/demo-links",
-  "homepage": "https://nicedoc.io/microlinkhq/demo-links",
   "description": "A set of links used for demo purposes",
-  "version": "0.0.0",
+  "homepage": "https://nicedoc.io/microlinkhq/demo-links",
+  "version": "0.0.1",
   "main": "readme.json",
   "author": {
-    "name": "microlink.io",
     "email": "hello@microlink.io",
+    "name": "microlink.io",
     "url": "https://microlink.io"
   },
+  "contributors": [
+    {
+      "name": "Kiko Beats",
+      "email": "josefrancisco.verdu@gmail.com"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/microlinkhq/demo-links.git"
@@ -17,16 +23,15 @@
     "url": "https://github.com/microlinkhq/demo-links/issues"
   },
   "keywords": [
-    "microlink",
     "demo",
-    "links"
-  ],
-  "files": [
-    "readme.json"
+    "links",
+    "microlink"
   ],
   "devDependencies": {
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
+    "@kikobeats/jsonsort": "latest",
+    "ci-publish": "latest",
     "conventional-github-releaser": "latest",
     "finepack": "latest",
     "git-authors-cli": "latest",
@@ -37,13 +42,14 @@
     "prettier-standard": "latest",
     "standard": "latest",
     "standard-markdown": "latest",
-    "standard-version": "latest",
-    "@kikobeats/jsonsort": "latest",
-    "ci-publish": "latest"
+    "standard-version": "latest"
   },
   "engines": {
     "node": ">= 8"
   },
+  "files": [
+    "readme.json"
+  ],
   "scripts": {
     "clean": "rm -rf node_modules",
     "lint": "standard-markdown README.md && standard",
