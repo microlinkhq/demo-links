@@ -1,10 +1,20 @@
 {
   "Apple": {
-    "url": "https://www.apple.com/homepod"
+    "url": "https://www.apple.com/music/",
+    "styles": [
+      "body { top: -70px !important; }"
+    ],
+    "hide": [
+      "#ac-localeswitcher"
+    ]
   },
   "Amazon": {
     "featured": true,
-    "url": "https://www.amazon.com/All-new-Echo-Plus-Bundle-Philips/dp/B07H1QBW2L"
+    "url": "https://www.amazon.com/All-new-Echo-Plus-Bundle-Philips/dp/B07H1QBW2L",
+    "hide": [
+      ".nav-signin-tt.nav-flyout",
+      ".a-section.glow-toaster.glow-toaster-theme-default.glow-toaster-slot-default.nav-coreFlyout.nav-flyout"
+    ]
   },
   "Ars": {
     "url": "https://arstechnica.com/tech-policy/2019/01/a-whole-years-worth-of-works-just-fell-into-the-public-domain/"
@@ -16,22 +26,27 @@
     "featured": true,
     "url": "https://www.buzzfeednews.com/article/ryanmac/cambridge-analytica-chris-wylie-eunoia-trump-campaign"
   },
+  "Change": {
+    "url": "https://www.change.org/p/disney-please-sell-the-rights-to-monkey-island-back-to-its-creator-ron-gilbert",
+    "click": [
+      "button"
+    ]
+  },
   "CNN": {
     "url": "https://edition.cnn.com/2019/02/13/africa/kenya-rare-black-leopard-black-panther/index.html"
   },
-  "Change": {
-    "url": "https://www.change.org/p/disney-please-sell-the-rights-to-monkey-island-back-to-its-creator-ron-gilbert"
-  },
   "Engadget": {
-    "url": "https://www.engadget.com/2018/04/30/engadget-closing-germany-spain/?sr_source=Twitter"
-  },
-  "Etsy": {
-    "featured": true,
-    "url": "https://www.etsy.com/es/listing/219173789/unicorn-head-white-w-gold-alicorn-the"
+    "url": "https://www.engadget.com/2018/04/30/engadget-closing-germany-spain",
+    "click": [
+      "input[type=submit]"
+    ]
   },
   "EventBrite": {
     "featured": true,
-    "url": "https://www.eventbrite.es/e/entradas-theantievent18-49664776684#"
+    "url": "https://www.eventbrite.es/e/entradas-theantievent18-49664776684#",
+    "hide": [
+      ".cookie_header"
+    ]
   },
   "Facebook": {
     "featured": true,
@@ -49,14 +64,23 @@
     "url": "https://gfycat.com/gifs/detail/timelyhealthyarmadillo"
   },
   "GitHub": {
-    "url": "https://github.com/substack/stream-handbook"
+    "url": "https://github.com/substack/stream-handbook",
+    "click": [
+      "button.btn.btn-danger"
+    ],
+    "hide": [
+      "signup-prompt-bg"
+    ]
   },
   "Gizmodo": {
     "url": "https://gizmodo.com/drone-video-of-border-wall-prototypes-accidentally-show-1819710328"
   },
   "Instagram": {
     "featured": true,
-    "url": "https://www.instagram.com/p/BeV6tOhFUor/"
+    "url": "https://www.instagram.com/p/BeV6tOhFUor/",
+    "click": [
+      "div > button"
+    ]
   },
   "LifeHacker": {
     "featured": true,
@@ -81,21 +105,33 @@
   },
   "ProductHunt": {
     "featured": true,
-    "url": "https://www.producthunt.com/posts/macos-mojave"
+    "url": "https://www.producthunt.com/posts/macos-mojave",
+    "click": [
+      "button"
+    ]
   },
   "Reddit": {
     "featured": true,
-    "url": "https://www.reddit.com/r/news/comments/8vebjp/lebron_james_takes_154_million_4year_deal_with/?st=JJ41AUKB&sh=be6868cb"
+    "url": "https://www.reddit.com/r/news/comments/8vebjp/lebron_james_takes_154_million_4year_deal_with/?st=JJ41AUKB&sh=be6868cb",
+    "click": [
+      "form button"
+    ]
   },
   "SoundCloud": {
     "featured": true,
     "url": "https://soundcloud.com/theaipodcast/gtc-weather/"
   },
   "StackOverflow": {
-    "url": "https://stackoverflow.com/questions/245062/whats-the-difference-between-javascript-and-java/245068#245068"
+    "url": "https://stackoverflow.com/questions/245062/whats-the-difference-between-javascript-and-java/245068#245068",
+    "hide": [
+      "#js-gdpr-consent-banner"
+    ]
   },
   "TED": {
-    "url": "https://www.ted.com/talks/jia_jiang_what_i_learned_from_100_days_of_rejection"
+    "url": "https://www.ted.com/talks/jia_jiang_what_i_learned_from_100_days_of_rejection",
+    "hide": [
+      "._Notice__inner_vquc8_38"
+    ]
   },
   "TNW": {
     "url": "https://thenextweb.com/microsoft/2018/11/15/report-microsofts-enterprise-products-covertly-gather-personal-data-on-users/"
@@ -108,7 +144,10 @@
   },
   "TheVerge": {
     "featured": true,
-    "url": "https://www.theverge.com/2017/10/27/16145498/insecure-broad-city-high-maintenance-web-series-hbo-comedy-central"
+    "url": "https://www.theverge.com/2017/10/27/16145498/insecure-broad-city-high-maintenance-web-series-hbo-comedy-central",
+    "hide": [
+      "#privacy-consent"
+    ]
   },
   "TheWashingtonPost": {
     "url": "https://www.washingtonpost.com/technology/2018/12/14/facebook-says-new-bug-allowed-apps-access-private-photos-up-million-users"
