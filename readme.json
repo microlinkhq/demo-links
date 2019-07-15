@@ -9,8 +9,7 @@
     ]
   },
   "Amazon": {
-    "featured": true,
-    "url": "https://www.amazon.com/All-new-Echo-Plus-Bundle-Philips/dp/B07H1QBW2L",
+    "url": "https://www.amazon.com/gp/product/B0792KTHKJ",
     "hide": [
       ".nav-signin-tt.nav-flyout",
       ".a-section.glow-toaster.glow-toaster-theme-default.glow-toaster-slot-default.nav-coreFlyout.nav-flyout"
@@ -50,7 +49,7 @@
   },
   "Facebook": {
     "featured": true,
-    "url": "https://www.facebook.com/natgeo/videos/1959330137697840/"
+    "url": "https://www.facebook.com/natgeo/videos/10156364216738951/"
   },
   "Flickr": {
     "featured": true,
