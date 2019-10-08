@@ -2,7 +2,7 @@
   "name": "@microlink/demo-links",
   "description": "A set of links used for demo purposes",
   "homepage": "https://nicedoc.io/microlinkhq/demo-links",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "readme.json",
   "author": {
     "email": "hello@microlink.io",
