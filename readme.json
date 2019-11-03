@@ -18,6 +18,9 @@
   "Ars": {
     "url": "https://arstechnica.com/tech-policy/2019/01/a-whole-years-worth-of-works-just-fell-into-the-public-domain/"
   },
+  "Giphy": {
+    "url": "https://media.giphy.com/media/LqTSLCsIIkCTvQ8X9g/giphy.gif"
+  },
   "BBC": {
     "url": "https://www.bbc.com/news/technology-40762328"
   },
@@ -49,6 +52,8 @@
     ]
   },
   "Facebook": {
+    "video": true,
+    "audio": true,
     "url": "https://www.facebook.com/natgeo/videos/10156364216738951/"
   },
   "Flickr": {
@@ -58,7 +63,17 @@
     "url": "https://www.foxnews.com/auto/literally-like-new-1987-buick-gnx-muscle-car-up-for-auction-with-8-5-miles-on-it"
   },
   "Gfycat": {
+    "video": true,
     "url": "https://gfycat.com/gifs/detail/timelyhealthyarmadillo"
+  },
+  "PlaysTv": {
+    "video": true,
+    "audio": true,
+    "url": "https://plays.tv/video/5a6f64b1bef69a7fa9/holy-shit"
+  },
+  "Stremeable": {
+    "video": true,
+    "url": "https://streamable.com/46ont"
   },
   "GitHub": {
     "url": "https://github.com/substack/stream-handbook",
@@ -73,6 +88,7 @@
     "url": "https://gizmodo.com/drone-video-of-border-wall-prototypes-accidentally-show-1819710328"
   },
   "Instagram": {
+    "video": true,
     "url": "https://www.instagram.com/p/BeV6tOhFUor/",
     "click": [
       "div > button"
@@ -109,6 +125,7 @@
     ]
   },
   "SoundCloud": {
+    "audio": true,
     "url": "https://soundcloud.com/theaipodcast/gtc-weather/"
   },
   "StackOverflow": {
@@ -125,6 +142,9 @@
   },
   "TNW": {
     "url": "https://thenextweb.com/microsoft/2018/11/15/report-microsofts-enterprise-products-covertly-gather-personal-data-on-users/"
+  },
+  "Mashable": {
+    "url": "http://mashable.com/2017/10/19/cybersecurity-hacker-online-course"
   },
   "TechCrunch": {
     "url": "https://techcrunch.com/2017/10/26/super-mario-odyssey-review-a-masterpiece-of-twists-and-turns/"
@@ -148,18 +168,43 @@
     "url": "https://www.twitch.tv/shroud/clip/AuspiciousTubularBunnyFUNgineer"
   },
   "Twitter": {
+    "video": true,
     "url": "https://twitter.com/futurism/status/882987478541533189"
   },
   "Vice": {
     "url": "https://motherboard.vice.com/en_us/article/ywxjvg/steel-ball-control-dreams-dormio-mit-hypnagogia"
   },
   "Vimeo": {
+    "video": true,
     "url": "https://vimeo.com/186386161"
   },
   "Wikipedia": {
+    "video": true,
     "url": "https://en.wikipedia.org/wiki/Bob_Dylan"
   },
+  "9Gag": {
+    "video": true,
+    "url": "https://9gag.com/gag/aMZ1WbW"
+  },
+  "SyntaxFm": {
+    "audio": true,
+    "url": "https://syntax.fm/show/180/potluck-why-webpack-serverless-agencies-recruiters-css-grid-mq-in-styled-components"
+  },
   "YouTube": {
+    "video": true,
+    "audio": true,
     "url": "https://www.youtube.com/watch?v=9P6rdqiybaw"
+  },
+  "Cuonda": {
+    "audio": true,
+    "url": "https://cuonda.com/mixxio/satelites-goticos"
+  },
+  "AnchorFm": {
+    "audio": true,
+    "url": "https://anchor.fm/sin-humo/episodes/Episodio-9-Los-mandamientos-e22pro"
+  },
+  "CastboxFm": {
+    "audio": true,
+    "url": "https://castbox.fm/episode/Episodio-9-“Los-mandamientos”-(%3F)-id1368872-id89380408"
   }
 }

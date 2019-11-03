@@ -54,15 +54,13 @@
     "clean": "rm -rf node_modules",
     "lint": "standard-markdown README.md && standard",
     "postrelease": "npm run release:tags && npm run release:github && ci-publish --access=public",
-    "precommit": "lint-staged",
     "prerelease": "npm run update:check",
     "pretest": "npm run lint",
-    "pretty": "prettier-standard index.js {core,test,bin,scripts}/**/*.js --single-quote --print-width 100",
     "release": "git-authors-cli && finepack && git add package.json && standard-version -a",
     "release:github": "conventional-github-releaser -p angular",
     "release:tags": "git push --follow-tags origin HEAD:master",
     "test": "exit 0",
-    "update": "ncu -a",
+    "update": "ncu -u",
     "update:check": "ncu -- --error-level 2"
   },
   "commitlint": {
@@ -77,23 +75,21 @@
     }
   },
   "lint-staged": {
-    "linters": {
-      "*.js": [
-        "prettier-standard",
-        "git add"
-      ],
-      "*.md": [
-        "standard-markdown",
-        "git add"
-      ],
-      "readme.json": [
-        "jsonsort --criteria logo --save --quiet",
-        "git add"
-      ],
-      "package.json": [
-        "finepack",
-        "git add"
-      ]
-    }
+    "*.js": [
+      "prettier-standard",
+      "git add"
+    ],
+    "*.md": [
+      "standard-markdown",
+      "git add"
+    ],
+    "readme.json": [
+      "jsonsort --quiet",
+      "git add"
+    ],
+    "package.json": [
+      "finepack",
+      "git add"
+    ]
   }
 }
