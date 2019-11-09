@@ -128,6 +128,10 @@
     "audio": true,
     "url": "https://soundcloud.com/theaipodcast/gtc-weather/"
   },
+  "Spotify": {
+    "audio": true,
+    "url": "https://open.spotify.com/track/1W2919zs8SBCLTrOB1ftQT?si=4PcqgjH5RlWCvB5q4ukdnw"
+  },
   "StackOverflow": {
     "url": "https://stackoverflow.com/questions/245062/whats-the-difference-between-javascript-and-java/245068#245068",
     "hide": [
