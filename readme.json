@@ -1,4 +1,19 @@
 {
+  "9Gag": {
+    "video": true,
+    "url": "https://9gag.com/gag/aMZ1WbW"
+  },
+  "Amazon": {
+    "url": "https://www.amazon.com/gp/product/B0792KTHKJ",
+    "hide": [
+      ".nav-signin-tt.nav-flyout",
+      ".a-section.glow-toaster.glow-toaster-theme-default.glow-toaster-slot-default.nav-coreFlyout.nav-flyout"
+    ]
+  },
+  "AnchorFm": {
+    "audio": true,
+    "url": "https://anchor.fm/sin-humo/episodes/Episodio-9-Los-mandamientos-e22pro"
+  },
   "Apple": {
     "url": "https://www.apple.com/music/",
     "styles": [
@@ -8,27 +23,21 @@
       "#ac-localeswitcher"
     ]
   },
-  "Amazon": {
-    "url": "https://www.amazon.com/gp/product/B0792KTHKJ",
-    "hide": [
-      ".nav-signin-tt.nav-flyout",
-      ".a-section.glow-toaster.glow-toaster-theme-default.glow-toaster-slot-default.nav-coreFlyout.nav-flyout"
-    ]
-  },
   "Ars": {
     "url": "https://arstechnica.com/tech-policy/2019/01/a-whole-years-worth-of-works-just-fell-into-the-public-domain/"
-  },
-  "Giphy": {
-    "url": "https://media.giphy.com/media/LqTSLCsIIkCTvQ8X9g/giphy.gif"
   },
   "BBC": {
     "url": "https://www.bbc.com/news/technology-40762328"
   },
-  "YCombinator": {
-    "url": "https://news.ycombinator.com/item?id=13713480"
-  },
   "BuzzFeed": {
     "url": "https://www.buzzfeednews.com/article/ryanmac/cambridge-analytica-chris-wylie-eunoia-trump-campaign"
+  },
+  "CNN": {
+    "url": "https://edition.cnn.com/2019/02/13/africa/kenya-rare-black-leopard-black-panther/index.html"
+  },
+  "CastboxFm": {
+    "audio": true,
+    "url": "https://castbox.fm/episode/Episodio-9-“Los-mandamientos”-(%3F)-id1368872-id89380408"
   },
   "Change": {
     "url": "https://www.change.org/p/disney-please-sell-the-rights-to-monkey-island-back-to-its-creator-ron-gilbert",
@@ -36,8 +45,9 @@
       "button"
     ]
   },
-  "CNN": {
-    "url": "https://edition.cnn.com/2019/02/13/africa/kenya-rare-black-leopard-black-panther/index.html"
+  "Cuonda": {
+    "audio": true,
+    "url": "https://cuonda.com/mixxio/satelites-goticos"
   },
   "Engadget": {
     "url": "https://www.engadget.com/2018/04/30/engadget-closing-germany-spain",
@@ -52,28 +62,25 @@
     ]
   },
   "Facebook": {
+    "iframe": true,
     "video": true,
     "audio": true,
     "url": "https://www.facebook.com/natgeo/videos/10156364216738951/"
   },
   "Flickr": {
+    "iframe": true,
     "url": "https://www.flickr.com/photos/68166820@N08/46358385844/"
   },
   "Fox": {
     "url": "https://www.foxnews.com/auto/literally-like-new-1987-buick-gnx-muscle-car-up-for-auction-with-8-5-miles-on-it"
   },
   "Gfycat": {
+    "iframe": true,
     "video": true,
     "url": "https://gfycat.com/gifs/detail/timelyhealthyarmadillo"
   },
-  "PlaysTv": {
-    "video": true,
-    "audio": true,
-    "url": "https://plays.tv/video/5a6f64b1bef69a7fa9/holy-shit"
-  },
-  "Stremeable": {
-    "video": true,
-    "url": "https://streamable.com/46ont"
+  "Giphy": {
+    "url": "https://media.giphy.com/media/LqTSLCsIIkCTvQ8X9g/giphy.gif"
   },
   "GitHub": {
     "url": "https://github.com/substack/stream-handbook",
@@ -88,6 +95,7 @@
     "url": "https://gizmodo.com/drone-video-of-border-wall-prototypes-accidentally-show-1819710328"
   },
   "Instagram": {
+    "iframe": true,
     "video": true,
     "url": "https://www.instagram.com/p/BeV6tOhFUor/",
     "click": [
@@ -100,6 +108,9 @@
   "MDN": {
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some"
   },
+  "Mashable": {
+    "url": "http://mashable.com/2017/10/19/cybersecurity-hacker-online-course"
+  },
   "Medium": {
     "url": "https://medium.com/@the_economist/apple-should-shrink-its-finance-arm-before-it-goes-bananas-f7fcdc754091"
   },
@@ -111,6 +122,11 @@
   },
   "Netflix": {
     "url": "https://www.netflix.com/es-en/title/80057281"
+  },
+  "PlaysTv": {
+    "video": true,
+    "audio": true,
+    "url": "https://plays.tv/video/5a6f64b1bef69a7fa9/holy-shit"
   },
   "ProductHunt": {
     "url": "https://www.producthunt.com/posts/macos-mojave",
@@ -126,9 +142,11 @@
   },
   "SoundCloud": {
     "audio": true,
+    "iframe": true,
     "url": "https://soundcloud.com/beautybrainsp/beauty-brain-swag-bandicoot"
   },
   "Spotify": {
+    "iframe": true,
     "audio": true,
     "url": "https://open.spotify.com/track/1W2919zs8SBCLTrOB1ftQT?si=4PcqgjH5RlWCvB5q4ukdnw"
   },
@@ -138,6 +156,15 @@
       "#js-gdpr-consent-banner"
     ]
   },
+  "Stremeable": {
+    "iframe": true,
+    "video": true,
+    "url": "https://streamable.com/46ont"
+  },
+  "SyntaxFm": {
+    "audio": true,
+    "url": "https://syntax.fm/show/180/potluck-why-webpack-serverless-agencies-recruiters-css-grid-mq-in-styled-components"
+  },
   "TED": {
     "url": "https://www.ted.com/talks/jia_jiang_what_i_learned_from_100_days_of_rejection",
     "hide": [
@@ -146,9 +173,6 @@
   },
   "TNW": {
     "url": "https://thenextweb.com/microsoft/2018/11/15/report-microsofts-enterprise-products-covertly-gather-personal-data-on-users/"
-  },
-  "Mashable": {
-    "url": "http://mashable.com/2017/10/19/cybersecurity-hacker-online-course"
   },
   "TechCrunch": {
     "url": "https://techcrunch.com/2017/10/26/super-mario-odyssey-review-a-masterpiece-of-twists-and-turns/"
@@ -163,6 +187,7 @@
     ]
   },
   "TheWashingtonPost": {
+    "iframe": true,
     "url": "https://www.washingtonpost.com/technology/2018/12/14/facebook-says-new-bug-allowed-apps-access-private-photos-up-million-users"
   },
   "Time": {
@@ -172,6 +197,7 @@
     "url": "https://www.twitch.tv/shroud/clip/AuspiciousTubularBunnyFUNgineer"
   },
   "Twitter": {
+    "iframe": true,
     "video": true,
     "url": "https://twitter.com/futurism/status/882987478541533189"
   },
@@ -179,6 +205,7 @@
     "url": "https://motherboard.vice.com/en_us/article/ywxjvg/steel-ball-control-dreams-dormio-mit-hypnagogia"
   },
   "Vimeo": {
+    "iframe": true,
     "video": true,
     "url": "https://vimeo.com/186386161"
   },
@@ -186,29 +213,13 @@
     "video": true,
     "url": "https://en.wikipedia.org/wiki/Bob_Dylan"
   },
-  "9Gag": {
-    "video": true,
-    "url": "https://9gag.com/gag/aMZ1WbW"
-  },
-  "SyntaxFm": {
-    "audio": true,
-    "url": "https://syntax.fm/show/180/potluck-why-webpack-serverless-agencies-recruiters-css-grid-mq-in-styled-components"
+  "YCombinator": {
+    "url": "https://news.ycombinator.com/item?id=13713480"
   },
   "YouTube": {
     "video": true,
     "audio": true,
+    "iframe": true,
     "url": "https://www.youtube.com/watch?v=9P6rdqiybaw"
-  },
-  "Cuonda": {
-    "audio": true,
-    "url": "https://cuonda.com/mixxio/satelites-goticos"
-  },
-  "AnchorFm": {
-    "audio": true,
-    "url": "https://anchor.fm/sin-humo/episodes/Episodio-9-Los-mandamientos-e22pro"
-  },
-  "CastboxFm": {
-    "audio": true,
-    "url": "https://castbox.fm/episode/Episodio-9-“Los-mandamientos”-(%3F)-id1368872-id89380408"
   }
 }
