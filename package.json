@@ -2,7 +2,7 @@
   "name": "@microlink/demo-links",
   "description": "A set of links used for demo purposes",
   "homepage": "https://nicedoc.io/microlinkhq/demo-links",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "main": "readme.json",
   "author": {
     "email": "hello@microlink.io",
@@ -13,6 +13,10 @@
     {
       "name": "Kiko Beats",
       "email": "josefrancisco.verdu@gmail.com"
+    },
+    {
+      "name": "Brad Adams",
+      "email": "hi@breadadams.com"
     }
   ],
   "repository": {
