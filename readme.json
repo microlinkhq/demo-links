@@ -156,7 +156,7 @@
       "#js-gdpr-consent-banner"
     ]
   },
-  "Stremeable": {
+  "Streamable": {
     "iframe": true,
     "video": true,
     "url": "https://streamable.com/46ont"
