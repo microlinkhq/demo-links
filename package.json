@@ -80,20 +80,16 @@
   },
   "lint-staged": {
     "*.js": [
-      "prettier-standard",
-      "git add"
+      "prettier-standard"
     ],
     "*.md": [
-      "standard-markdown",
-      "git add"
+      "standard-markdown"
     ],
     "readme.json": [
-      "jsonsort --quiet",
-      "git add"
+      "jsonsort --quiet"
     ],
     "package.json": [
-      "finepack",
-      "git add"
+      "finepack"
     ]
   }
 }
