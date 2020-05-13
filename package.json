@@ -86,7 +86,7 @@
       "standard-markdown"
     ],
     "readme.json": [
-      "jsonsort --quiet"
+      "jsonsort"
     ],
     "package.json": [
       "finepack"
