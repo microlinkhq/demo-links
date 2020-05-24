@@ -97,7 +97,7 @@
   "Instagram": {
     "iframe": true,
     "video": true,
-    "url": "https://www.instagram.com/p/BeV6tOhFUor/",
+    "url": "https://www.instagram.com/p/BvDTdWdnzkj/",
     "click": [
       "div > button"
     ]
