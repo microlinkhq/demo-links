@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.15](https://github.com/microlinkhq/demo-links/compare/v1.0.14...v1.0.15) (2020-07-31)
+
+
+### Bug Fixes
+
+* ensure all URLs are HTTPS ([c138f73](https://github.com/microlinkhq/demo-links/commit/c138f737f20d8aa72bd07d89efa8dd2c959c1d7d))
+
 ### [1.0.14](https://github.com/microlinkhq/demo-links/compare/v1.0.13...v1.0.14) (2020-05-24)
 
 ### [1.0.13](https://github.com/microlinkhq/demo-links/compare/v1.0.12...v1.0.13) (2020-05-13)
